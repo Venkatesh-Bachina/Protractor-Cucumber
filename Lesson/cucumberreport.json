@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validation-of-super-cal;validation-of-super-calculator-website",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "validation of super calculator website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open website",
+            "match": {
+              "location": "features\\step-defniations\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I add two numbers \"3\" and \"5\"",
+            "match": {
+              "location": "features\\step-defniations\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2473000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validation-of-super-cal",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "validation of super cal",
+    "tags": [],
+    "uri": "features\\First.feature"
+  }
+]
